@@ -2,11 +2,19 @@
   "name": "mose-nocode",
   "version": "1.0.0",
   "main": "index.js",
+  "type": "module",
   "scripts": {
     "dev:builder": "pnpm --filter builder run dev"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "description": ""
+  "description": "",
+  "devDependencies": {
+    "sass": "^1.90.0"
+  },
+  "dependencies": {
+    "element-plus": "^2.11.1",
+    "normalize.css": "^8.0.1"
+  }
 }
