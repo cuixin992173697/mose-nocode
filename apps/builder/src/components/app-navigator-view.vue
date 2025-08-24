@@ -16,7 +16,6 @@
 </template>
 
 <script setup lang="ts">
-
 </script>
 
 <style lang="scss" scoped>
@@ -39,4 +38,7 @@
 .router-link-active {
   color: #67c23a;
 } 
+.publish {
+	margin-right: 20px;
+}
 </style>
